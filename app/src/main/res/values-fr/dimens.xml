@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_title">30dp</dimen>
+    <dimen name="dim_top">20dp</dimen>
+    <dimen name="dim_left">20dp</dimen>
+    <dimen name="dim_right">20dp</dimen>
+    <dimen name="dim_text">15dp</dimen>
+
+</resources>

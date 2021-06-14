@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="tab_formation">
+        <item>GL</item>
+        <item>RT</item>
+        <item>DITI</item>
+        <item>RI</item>
+        <item>IAGE</item>
+        <item>GDA</item>
+    </string-array>
+
+    <string-array name="tab_details">
+        <item>Java, Php, C#, Asp, Android, Oracle, Anglais, Linux, Réseaux. Dev Mobile , Dev Web, DBA</item>
+        <item>Java, Linux, Telecoms, Réseaux, UML, Sécurité, Systems. Admin Sys, Admin Réseaux, Dev</item>
+        <item>DITI</item>
+        <item>RI</item>
+        <item>IAGE</item>
+        <item>GDA</item>
+    </string-array>
+    
+</resources>
