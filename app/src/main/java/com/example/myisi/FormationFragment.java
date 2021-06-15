@@ -1,5 +1,7 @@
 package com.example.myisi;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -34,7 +36,23 @@ public class FormationFragment extends Fragment {
         listFormation.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                formation = tabFormation[position];
+                details = tabDetails[position];
 
+                AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
+                dialog.setIcon(R.mipmap.ic_launcher);
+                dialog.setTitle(formation);
+                dialog.setMessage(details);
+                dialog.setNegativeButton(getString(R.string.back), null);
+                dialog.setPositiveButton(getString(R.string.sign_up), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+
+                // affiche la boite de dialogue
+                dialog.show();
             }
         });
 

@@ -11,5 +11,11 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/nav_formation"
+        android:name="com.example.myisi.FormationFragment"
+        android:label="@string/formation"
+        tools:layout="@layout/fragment_formation" />
+
 
 </navigation>
