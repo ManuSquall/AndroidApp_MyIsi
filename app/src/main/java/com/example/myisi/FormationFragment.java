@@ -47,7 +47,7 @@ public class FormationFragment extends Fragment {
                 dialog.setPositiveButton(getString(R.string.sign_up), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-
+                        
                     }
                 });
 

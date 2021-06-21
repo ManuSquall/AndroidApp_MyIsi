@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_top"
     tools:context=".InscriptionFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <!--wrap content ne lui donne que l'espace dont il a besoin-->
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="@dimen/dim_title"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up" />
+
+    <EditText
+        android:id="@+id/txtFirstname"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="@dimen/dim_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/degrees" />
+
+    <CheckBox
+        android:id="@+id/cbOLevel"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:text="@string/o_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbBachelor"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:text="@string/bachelor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbMaster"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:text="@string/master"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginRight="@dimen/dim_right"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:id="@+id/btnSave"
+        android:layout_marginTop="@dimen/dim_top"
+        android:text="@string/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
