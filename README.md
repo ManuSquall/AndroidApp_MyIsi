@@ -24,6 +24,10 @@ This project was done in an android course for learning purpose
 
 ![output4](/readme/output4.png)
 
+![output5](/readme/output5.png)
+
+![output6](/readme/output6.png)
+
 ## About Authors / Contributors
 
 [ManuSquall](https://manusquall.azurewebsites.net/)
